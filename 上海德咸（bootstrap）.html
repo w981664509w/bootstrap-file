@@ -1,0 +1,335 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>上海德咸</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="stylecss.css">
+</head>
+
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+    	<div class="navbar-header">
+        	<button type="button" class="btn btn-default navbar-toggle collapsed" data-toggle="collapse" data-target="#example-header-top">
+            	<span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand">
+            	<img src="img/p10.png" />
+            </a>
+        </div>
+        <div class="navbar-collapse collapse" id="example-header-top">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">首页</a></li>
+                    <li>
+                        <a href="#" class="click-one">行业解决方案<span class="caret"></span></a>
+                        <div id="click-one">
+                        	<div class="panel-group" id="accordion">
+                            	<div class="panel panel-default">
+                                	<div class="panel-heading">
+                                    	<h4 class="panel-title">
+                                        	<a href="#collapseOne" data-toggle="collapse" data-parent="#accordion">制造行业</a>
+                                        </h4>
+                                    </div>
+                                    <div class="panel-collapse collapse" id="collapseOne">
+                                    	<div class="panel-body">
+                                        	<ul class="list-unstyled">
+                                                <li><a href="#">生产计划</a></li>
+                                                <li><a href="#">物料计划</a></li>
+                                                <li><a href="#">物料分发</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                	<div class="panel-heading">
+                                    	<h4 class="panel-title">
+                                        	<a href="#collapseTwo" data-toggle="collapse" data-parent="#accordion">零售行业</a>
+                                        </h4>
+                                    </div>
+                                    <div class="panel-collapse collapse" id="collapseTwo">
+                                    	<div class="panel-body">
+                                        	<ul class="list-unstyled">
+                                                <li><a href="#">POS收银</a></li>
+                                                <li><a href="#">库存管理</a></li>
+                                                <li><a href="#">积分活动</a></li>
+                                                <li><a href="#">APP/微信</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                	<div class="panel-heading">
+                                    	<h4 class="panel-title">
+                                        	<a href="#collapseThree" data-toggle="collapse" data-parent="#accordion" data-stopPropagation="true">服装行业</a>
+                                        </h4>
+                                    </div>
+                                    <div class="panel-collapse collapse" id="collapseThree">
+                                    	<div class="panel-body">
+                                        	<ul class="list-unstyled">
+                                                <li><a href="#">订单输入</a></li>
+                                                <li><a href="#">颜色尺码管理</a></li>
+                                                <li><a href="#">款式出样</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                	<div class="panel-heading">
+                                    	<h4 class="panel-title">
+                                        	<a href="#collapseFour" data-toggle="collapse" data-parent="#accordion" data-stopPropagation="true">外贸行业</a>
+                                        </h4>
+                                    </div>
+                                    <div class="panel-collapse collapse" id="collapseFour">
+                                    	<div class="panel-body">
+                                        	<ul class="list-unstyled">
+                                                <li><a href="#">采购订单</a></li>
+                                                <li><a href="#">销售订单</a></li>
+                                                <li><a href="#">出入库记录</a></li>
+                                                <li><a href="#">销售报表</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                    </li>
+                    <li><a href="#">产品中心</a></li>
+                    <li><a href="#">客户案例</a></li>
+                    <li><a href="#">服务支持</a></li>
+                    <li><a href="#">联系我们</a></li>
+                </ul>
+            <form class="navbar-form navbar-right">
+                <input type="text" class="form-control" placeholder="Search..." />
+                <button type="submit"><span class="glyphicon glyphicon-search"></span></button>
+            </form>
+			<div class="navbar-right profile">
+                <button type="button" class="btn btn-primary navbar-btn" data-toggle="modal" data-target="#login-modal">登陆</button>
+                <button type="button" class="btn btn-primary navbar-btn">注册</button>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="modal fade" id="login-modal" tabindex="-1">
+	<div class="modal-dialog">
+    	<div class="modal-content">
+        	<div class="modal-header">
+            	<button class="close" data-dismiss="modal">&times;</button>
+            	<h4>用户登陆</h4>
+            </div>
+            <div class="modal-body">
+            	<form>
+                	<div class="form-group">
+                    	<label for="search-input">Email</label>
+                        <input type="text" class="form-control" placeholder="输入Email" id="search-input" />
+                    </div>
+                    <div class="form-group">
+                    	<label for="password-input">密码</label>
+                        <input type="password" class="form-control" placeholder="输入密码" id="password-input" />
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+            	<button type="button" class="btn btn-primary" data-dismiss="modal">登陆</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+	<div class="row">
+	<div class="carousel slide" data-ride="carousel" id="slideshow" data-interval="3000">
+    	<ol class="carousel-indicators">
+        	<li class="active" data-slide-to="0" data-target="#slideshow"></li>
+            <li data-slide-to="1" data-target="#slideshow"></li>
+            <li data-slide-to="2" data-target="#slideshow"></li>
+        </ol>
+        <div class="carousel-inner">
+        	<div class="item active">
+            	<img src="img/m-01.jpg">
+            </div>
+            <div class="item">
+            	<img src="img/m-02.jpg">
+            </div>
+            <div class="item">
+            	<img src="img/m-03.jpg">
+            </div>
+        </div>
+        <a href="#slideshow" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+        <a href="#slideshow" class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+    </div>
+</div>
+<div class="container">
+	<div class="page-header text-center">
+		<h2>软件开发</h2>
+    </div>
+    <div class="row">
+    	<div class="col-lg-3 col-sm-6">
+        	<a href="#" class="thumbnail">
+            	<img src="img/g-01.jpg" />
+            </a>
+            <p class="text-center">生产管理</p>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+        	<a href="#" class="thumbnail">
+            	<img src="img/g-02.jpg" />
+            </a>
+            <p class="text-center">采购管理</p>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+        	<a href="#" class="thumbnail">
+            	<img src="img/g-03.jpg" />
+            </a>
+            <p class="text-center">库存管理</p>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+        	<a href="#" class="thumbnail">
+            	<img src="img/g-04.jpg" />
+            </a>
+            <p class="text-center">销售管理</p>
+        </div>
+    </div>
+    <hr class="site-divider" />
+    <ul class="nav nav-tabs">
+    	<li class="active"><a href="#summary" data-toggle="tab">公司简介</a></li>
+        <li><a href="#rule" data-toggle="tab">行业动态</a></li>
+        <li><a href="#forum" data-toggle="tab">公司新闻</a></li>
+        <li><a href="#welfare" data-toggle="tab">联系我们</a></li>
+    </ul>
+    <div class="tab-content">
+    	<div class="tab-pane fade in active" id="summary">
+        	<div class="row feature">
+            	<div class="col-lg-7">
+                	<h1 class="feature-heading">上海德咸软件有限公司<small>公司简介</small></h1>
+                    <p class="feature-text">德咸软件位于上海市浦东新区乳山路206号申富大厦501室，公司主要成员均为IT行业资深从业人员，对各项前沿技术、客户需求有深入的理解和丰厚的积累。</p>
+                    <p class="feature-text">上海德咸软件有限公司本着"客户第一，诚信至上"的原则，以务实服务客户为己任，急客户所及、想客户所想，为各类客户提供各项技术服务、软件服务、咨询服务。</p>
+                    <p class="feature-pad">
+                    公司主要软件产品有:<br/>
+                    WEB管理系统：CRM,ERP,进销存等；<br/>
+                    APP：Android WEB APP；<br/>
+                    微信公众号：二维码、微信支付、网页授权、模板消息等高级功能开发。</p>
+                </div>
+                <div class="col-lg-5 hidden-sm hidden-xs">
+                	<img src="img/new-1.jpg" class="img-responsive center-block">
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="rule">
+        	<div class="row feature">
+            	<div class="col-lg-5 hidden-sm hidden-xs">
+                	<img src="img/new-2.jpg" class="img-responsive">
+                </div>
+            	<div class="col-lg-7">
+                	<h1 class="feature-heading">行业动态</h1>
+                    <div class="feature-pad pad-color">
+                        <p><a href="#"><span class="glyphicon glyphicon-tag"></span>京东拥有世界最大规模Docker集群</a></p>
+                        <p><a href="#"><span class="glyphicon glyphicon-tag"></span>REDIS在电商中的实际应用场景</a></p>
+                        <p><a href="#"><span class="glyphicon glyphicon-tag"></span>告诉你一个真实的OpenStack:都谁在用,用来干什么?</a></p>
+                        <p><a href="#"><span class="glyphicon glyphicon-tag"></span>Spark在360商业数据部的应用实践</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="forum">
+        	<div class="row feature">
+            	
+            	<div class="col-lg-7">
+                	<h1 class="feature-heading">公司新闻</h1>
+                    <div class="feature-pad pad-color">
+                        <p><a href="#"><span class="glyphicon glyphicon-tag"></span>德咸软件为浙江尤奈特电机提供桌面云解决方案</a></p>
+                        <p><a href="#"><span class="glyphicon glyphicon-tag"></span>德咸软件为浙江尤奈特电机提供网络解决方案</a></p>
+                        <p><a href="#"><span class="glyphicon glyphicon-tag"></span>德咸软件为浙江尤奈特电机提供数据加密软件</a></p>
+                        <p><a href="#"><span class="glyphicon glyphicon-tag"></span>德咸软件为上海信昱电子科技有限公司提供仓库管理方案</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-5 hidden-sm hidden-xs">
+                	<img src="img/new-3.jpg" class="img-responsive">
+                </div>
+            </div>
+        </div>
+         <div class="tab-pane fade" id="welfare">
+        	<div class="row feature">
+            	<div class="col-lg-5 hidden-sm hidden-xs">
+                	<img src="img/new-4.jpg" class="img-responsive">
+                </div>
+            	<div class="col-lg-7 feature-message">
+                	<div class="col-sm-6">
+                    	<p class="help-block"><span class="glyphicon glyphicon-th"></span>通讯地址：乳山路206号申富大厦501室</p>
+                    </div>
+                    <div class="col-sm-6">
+                    	<p class="help-block"><span class="glyphicon glyphicon-phone-alt"></span>公司总电：021-61557545</p>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-sm-6">
+                    	<p class="help-block"><span class="glyphicon glyphicon-envelope"></span>电子邮箱:info@magnifisoftware.com</p>
+                    </div>
+                    <div class="col-sm-6">
+                    	<p class="help-block"><span class="glyphicon glyphicon-qrcode"></span>邮政编码：200120</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+	<div class="container">
+        <div class="row footer-line">
+            <div class="col-lg-6">
+                <p>
+                [上海德咸软件有限公司]  邮编：200120  地址：上海浦东新区乳山路206号申富大厦501室版权所有© 2017.上海德咸软件有限公司. All Right Reserved.
+                </p>
+            </div>
+            <div class="col-lg-2 col-lg-offset-1">
+            	<p>
+                	咨询电话:<br />
+                	<span class="glyphicon glyphicon-phone-alt"></span> 021-61557545
+                </p>
+            </div>
+            <div class="col-lg-1">
+            	<img src="img/p11.png">
+            </div>
+        </div>
+    </div>
+    <div class="line-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>友情链接：<a href="#">上海悠远信息技术有限公司</a></p>
+                </div>
+                <div class="col-lg-2 col-lg-offset-1">
+                    <p>
+                        <a href="#">法律声明</a>
+                        <i>/</i>
+                        <a href="#">隐私保护</a>
+                        <i>/</i>
+                        <a href="#">联系我们</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script>
+$(function(){
+	$('.click-one').click(function(){
+		if($('#click-one').css('display')=='none'){
+			$('#click-one').show().slideDown(2000);
+		}else{
+			$('#click-one').hide();	
+		}
+	});
+});
+
+</script>
+</body>
+</html>
